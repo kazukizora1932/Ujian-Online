@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-VA-Compatible" content="IE=egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pilihan Ganda</title>
+    </head>
+
+    <style>
+        .btn {background-color: aqua;}
+    </style>
+    
+    <body>
+
+        <!-- button -->
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+
+        <!-- Soal -->
+        <h1>Soal Pilihan Ganda</h1>
+        <label for="">1. Siapakah Presiden Indonesia 2024</label><br>
+        <input type="radio" name="presiden" id="presidenJokowi"> Jokowi <br>
+        <input type="radio" name="presiden" id="presidenMegachan"> Mega <br>
+        <input type="radio" name="presiden" id="presidenMadara"> Madara <br>
+        <input type="radio" name="presiden" id="presidenHashirama"> Hashirama <br>
+        <div id="responsePresiden"></div>
+
+
+        <button onClick="Back()">Back</button>
+        <button onClick="Next()">Next</button>
+        <script>
+            function kirim(){
+                // soal nomer 1
+             const presidenJokowi = document.querySelector('#presidenjokowi')
+             const presidenMegachan = document.querySelector('#presidenrichard')
+             const presidenMadara = document.querySelector('#presidenherman')
+             const presidenHashirama = document.querySelector('#presidenhashirama')
+             const responsePresiden = document.querySelector('#responsePresiden')
+             let answerPresiden
+             }
+        </script>
+
+    </body>
+    </html>
+        
+
+
